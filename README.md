@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+## Graph data reduction algorithm
 
-You can use the [editor on GitHub](https://github.com/ahsien0000/GraphReduction_ShortestPath/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This repo provides an algorithm for users to reduce grpah-based data. For a specific algorithm (i.e., shortest path problem), users can obtain shortest path query result after applying shortest path algorithm on the original graph. However, since the original graph might be considered too large, the provided reduction algorithm can reduce the oginal graph by removing some irrelevant nodes/edges, but without harming the query result. In other words, the reduced graph can still answer the user's shortest path probelm query with a 100% accurate result.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+ [algorithms](https://github.com/ahsien0000/GraphReduction_ShortestPath/tree/master/src/algorithm) 
 
-### Markdown
+### GRSP
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+GRSP: graph reduction-shortest path is the algorithm that reduces irrelevant nodes/edges in the original graph, while preserving 100% accuracy of the shortest path query result.
+Refer to [algorithms](https://github.com/ahsien0000/GraphReduction_ShortestPath/tree/master/src/algorithm).
 
-```markdown
-Syntax highlighted code block
+### LGRSP
 
-# Header 1
-## Header 2
-### Header 3
+LGRSP 1+epsilon: Lossy graph reduction-shortest path. Based on GRSP, LGRSP is the algorithm that reduces more nodes/edges with a tolerable error rate. In addition, the error rate is bounded by epsilon.
+Refer to [algorithms](https://github.com/ahsien0000/GraphReduction_ShortestPath/tree/master/src/algorithm).
 
-- Bulleted
-- List
+### Publications referring these algorithms
 
-1. Numbered
-2. List
+Wang, S., Zhang, G., Sheu, P., Hayakawa, M., Shigematsu, H., & Kitazawa, A. (2018). A Semantic Approach to Data Reduction for Weighted Graphs and Complex Queries. International Journal of Semantic Computing, 12(02), 287-312. [link](https://www.worldscientific.com/doi/abs/10.1142/S1793351X18500010)
+Wang, S., Zhang, G., Sheu, P., Hayakawa, M., Shigematsu, H., & Kitazawa, A. (2018). Lossy Graph Data Reduction. International Journal of Semantic Computing, 12(03), 425-456. [link](https://www.worldscientific.com/doi/abs/10.1142/S1793351X18500022)
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ahsien0000/GraphReduction_ShortestPath/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Support or contacts
+[contact support](chunghc3@uci.edu), and we’ll help you sort it out.
