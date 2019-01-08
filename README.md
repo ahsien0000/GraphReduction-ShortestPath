@@ -2,8 +2,6 @@
 
 This repo provides an algorithm for users to reduce grpah-based data. For a specific algorithm (i.e., shortest path problem), users can obtain shortest path query result after applying shortest path algorithm on the original graph. However, since the original graph might be considered too large, the provided reduction algorithm can reduce the oginal graph by removing some irrelevant nodes/edges, but without harming the query result. In other words, the reduced graph can still answer the user's shortest path probelm query with a 100% accurate result.
 
- [algorithms](https://github.com/ahsien0000/GraphReduction_ShortestPath/tree/master/src/algorithm) 
-
 ### GRSP
 
 GRSP: graph reduction-shortest path is the algorithm that reduces irrelevant nodes/edges in the original graph, while preserving 100% accuracy of the shortest path query result.
@@ -16,8 +14,9 @@ Refer to [algorithms](https://github.com/ahsien0000/GraphReduction_ShortestPath/
 
 ### Publications referring these algorithms
 
-Wang, S., Zhang, G., Sheu, P., Hayakawa, M., Shigematsu, H., & Kitazawa, A. (2018). A Semantic Approach to Data Reduction for Weighted Graphs and Complex Queries. International Journal of Semantic Computing, 12(02), 287-312. [link](https://www.worldscientific.com/doi/abs/10.1142/S1793351X18500010)
-Wang, S., Zhang, G., Sheu, P., Hayakawa, M., Shigematsu, H., & Kitazawa, A. (2018). Lossy Graph Data Reduction. International Journal of Semantic Computing, 12(03), 425-456. [link](https://www.worldscientific.com/doi/abs/10.1142/S1793351X18500022)
+1. Wang, S., Zhang, G., Sheu, P., Hayakawa, M., Shigematsu, H., & Kitazawa, A. (2018). A Semantic Approach to Data Reduction for Weighted Graphs and Complex Queries. International Journal of Semantic Computing, 12(02), 287-312. [link](https://www.worldscientific.com/doi/abs/10.1142/S1793351X18500010)
+
+2. Wang, S., Zhang, G., Sheu, P., Hayakawa, M., Shigematsu, H., & Kitazawa, A. (2018). Lossy Graph Data Reduction. International Journal of Semantic Computing, 12(03), 425-456. [link](https://www.worldscientific.com/doi/abs/10.1142/S1793351X18500022)
 
 
 ### Support or contacts
